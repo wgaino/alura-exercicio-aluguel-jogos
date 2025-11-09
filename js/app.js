@@ -1,4 +1,4 @@
-let listaDeAlugados = [];
+let listaDeJogosAlugados = [];
 
 
 
@@ -24,7 +24,7 @@ function alterarStatus(idJogo){
         botao.textContent = 'Alugar'
         alert ('Item devolvido, obrigado!');
         listaDeAlugados.pop(nomeDoJogo)
-        console.log (listaDeAlugados);
+        console.log (listaDeJogosAlugados);
 
 
 
@@ -34,7 +34,7 @@ function alterarStatus(idJogo){
         botao.textContent = 'Devolver'
         alert ('Item alugado, obrigado!')
         listaDeAlugados.push(nomeDoJogo)
-        console.log(listaDeAlugados);
+        console.log(listaDeJogosAlugados);
     
     
 
